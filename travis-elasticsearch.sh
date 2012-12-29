@@ -44,15 +44,15 @@ download_and_run() {
             dir_name="elasticsearch-0.20.2"
             ;;
         0.20.1)
-            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.2.tar.gz"
+            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.1.tar.gz"
             dir_name="elasticsearch-0.20.1"
             ;;
         0.20.0)
-            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.2.tar.gz"
+            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.1.tar.gz"
             dir_name="elasticsearch-0.20.0"
             ;;
         0.19.11)
-            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.2.tar.gz"
+            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.19.11.tar.gz"
             dir_name="elasticsearch-0.19.11"
             ;;
     esac
