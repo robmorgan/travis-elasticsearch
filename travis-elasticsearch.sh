@@ -31,9 +31,10 @@ run() {
     echo "Started"
 }
 
-post_some_documents() {
-    #TODO
-}
+#TODO
+#post_some_documents() {
+    
+#}
 
 
 download_and_run() {
