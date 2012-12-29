@@ -1,7 +1,7 @@
 # travis-elasticsearch
 
 
-[![](https://secure.travis-ci.org/lbdremy/travis-elasticsearch.png)](http://travis-ci.org/#!/lbdremy/travis-elasticsearch)
+[![](https://secure.travis-ci.org/juzerali/travis-elasticsearch.png)](http://travis-ci.org/#!/juzerali/travis-elasticsearch)
 
 Get a elasticsearch instance running with a one-liner and use it in your tests.
 
@@ -9,7 +9,7 @@ Get a elasticsearch instance running with a one-liner and use it in your tests.
 ## Usage
 
 ```
-curl https://raw.github.com/lbdremy/travis-elasticsearch/master/travis-elasticsearch.sh | ELASTICSEARCH_VERSION=0.20.2 bash
+curl https://raw.github.com/juzerali/travis-elasticsearch/master/travis-elasticsearch.sh | ELASTICSEARCH_VERSION=0.20.2 bash
 ```
 
 ELASTICSEARCH_VERSION:
@@ -29,5 +29,5 @@ For example if you want to use elasticsearch 3.6.1 with the default settings you
 line to your .travis.yml: ::
 
 ```
-before_script: curl https://raw.github.com/lbdremy/travis-elasticsearch/master/travis-elasticsearch.sh | ELASTICSEARCH_VERSION=0.20.2 bash
+before_script: curl https://raw.github.com/juzerali/travis-elasticsearch/master/travis-elasticsearch.sh | ELASTICSEARCH_VERSION=0.20.2 bash
 ```
