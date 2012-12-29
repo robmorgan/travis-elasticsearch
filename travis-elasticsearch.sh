@@ -22,9 +22,9 @@ run() {
     cd $1/bin
     if [ $DEBUG ]
     then
-        elasticsearch -f
+        ./elasticsearch -f
     else
-        elasticsearch  > /dev/null 2>&1 &
+        ./elasticsearch 2>&1 /dev/null
     fi
     wait_for_elasticsearch
     cd ../../
