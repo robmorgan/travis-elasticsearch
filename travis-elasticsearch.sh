@@ -38,24 +38,8 @@ run() {
 
 
 download_and_run() {
-    case $1 in
-        0.20.2)
-            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.2.tar.gz"
-            dir_name="elasticsearch-0.20.2"
-            ;;
-        0.20.1)
-            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.1.tar.gz"
-            dir_name="elasticsearch-0.20.1"
-            ;;
-        0.20.0)
-            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.1.tar.gz"
-            dir_name="elasticsearch-0.20.0"
-            ;;
-        0.19.11)
-            url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.19.11.tar.gz"
-            dir_name="elasticsearch-0.19.11"
-            ;;
-    esac
+    url="http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-$1.gz"
+    dir_name="elasticsearch-$1"
 
     download $url
 
