@@ -1,6 +1,8 @@
 travis-elasticsearch.sh
 ==============
 
+[![](https://secure.travis-ci.org/lbdremy/travis-elasticsearch.png)](http://travis-ci.org/#!/lbdremy/travis-elasticsearch)
+
 Get a elasticsearch instance running with a one-liner and use it in your tests.
 
 
