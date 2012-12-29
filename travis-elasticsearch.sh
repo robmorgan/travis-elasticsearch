@@ -22,7 +22,7 @@ run() {
     cd $1/bin
     if [ $DEBUG ]
     then
-        elasticsearch &
+        elasticsearch -f
     else
         elasticsearch  > /dev/null 2>&1 &
     fi
