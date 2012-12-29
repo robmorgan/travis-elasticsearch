@@ -1,4 +1,5 @@
 branches:
   only:
     - master
-script: "curl https://raw.github.com/juzerali/travis-elasticsearch/master/travis-elasticsearch.sh | ELASTICSEARCH_VERSION=0.20.2 bash"
+script: "curl https://raw.github.com/lbdremy/travis-elasticsearch/master/travis-elasticsearch.sh | ELASTICSEARCH_VERSION=0.20.2 bash &"
+env: DEBUG=1
