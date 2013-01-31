@@ -1,4 +1,4 @@
-#Travis provides Elastic search out of the box, there is no need for this script. Put the following in your `travis.yml` like [in here](https://github.com/phillro/node-elasticsearch-client/blob/master/.travis.yml)
+#Travis provides Elastic search out of the box, there is no need for this script. Put the following in your `travis.yml` instead. Like [in here](https://github.com/phillro/node-elasticsearch-client/blob/master/.travis.yml)
 
 ```yml
 services:
